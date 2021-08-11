@@ -1,0 +1,30 @@
+p.s. [可选参数] (必须参数)
+p.s. *为需要管理权限
+/getearth [清晰度:1-4]
+/sched*
+	|----(add) (标题) (时间)
+	|----(del) (序号)
+	|----(check) 查看
+/sched-check 查看
+/wc   词频云图*
+	|----(add) 群开启功能
+	|-----(del) 群功能关闭
+	|-----(check) 记录词条数检查
+	|-----(make) 生成词云图
+/cleanwordcloud * 清除记录词条
+/团分 (id) 查询团分
+/detpr 网抑云
+/gbf qks抽卡
+/nmsl 那没事了
+/ireina [meme] 屑魔女
+/logs [name] [server] [raid] logs警察
+/setu 发送/setu查看详细命令
+/r6s 发送/r6s查看详细命令
+/r6-weapon (武器类型) 搜索指定类型武器名
+/发送片段 (内容)将奇怪的东西塞入暗酱
+/读取片段 随机读取奇怪的东西
+/nokia (内容) 有内鬼,终止交易
+/eve 星战前夜查价相关功能
+/status 检~查~身~体
+
+

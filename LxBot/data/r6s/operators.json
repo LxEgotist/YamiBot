@@ -1,0 +1,344 @@
+[
+    {
+        "name": "smoke",
+        "nickname": [
+            "smoke","毒气"
+        ]
+    },
+    {
+        "name": "mute",
+        "nickname": [
+            "mute","wifi"
+        ]
+    },
+    {
+        "name": "sledge",
+        "nickname": [
+            "sledge","大锤"
+        ]
+    },
+    {
+        "name": "thatcher",
+        "nickname": [
+            "thatcher","emp"
+        ]
+    },
+    {
+        "name": "castle",
+        "nickname": [
+            "castle","龙鳞板"
+        ]
+    },
+    {
+        "name": "pulse",
+        "nickname": [
+            "pulse","心跳"
+        ]
+    },
+    {
+        "name": "ash",
+        "nickname": [
+            "ash"
+        ]
+    },
+    {
+        "name": "thermite",
+        "nickname": [
+            "thermite","热切"
+        ]
+    },
+    {
+        "name": "doc",
+        "nickname": [
+            "doc","医生"
+        ]
+    },
+    {
+        "name": "rook",
+        "nickname": [
+            "rook"
+        ]
+    },
+    {
+        "name": "twitch",
+        "nickname": [
+            "twitch","电车","电车妹"
+        ]
+    },
+    {
+        "name": "montagne",
+        "nickname": [
+            "montagne","大盾"
+        ]
+    },
+    {
+        "name": "kapkan",
+        "nickname": [
+            "kapkan","诡雷","edd"
+        ]
+    },
+    {
+        "name": "tachanka",
+        "nickname": [
+            "tachanka","机枪哥"
+        ]
+    },
+    {
+        "name": "glaz",
+        "nickname": [
+            "glaz","毛子","嘎子","烟狙"
+        ]
+    },
+    {
+        "name": "fuze",
+        "nickname": [
+            "fuze","duangduangduang"
+        ]
+    },
+    {
+        "name": "jager",
+        "nickname": [
+            "jager","野鸽","耶大头","大头"
+        ]
+    },
+    {
+        "name": "bandit",
+        "nickname": [
+            "bandit","电箱","班迪"
+        ]
+    },
+    {
+        "name": "blitz",
+        "nickname": [
+            "blitz","闪盾"
+        ]
+    },
+    {
+        "name": "iq",
+        "nickname": [
+            "iq"
+        ]
+    },
+    {
+        "name": "frost",
+        "nickname": [
+            "frost","夹子妹","夹子"
+        ]
+    },
+    {
+        "name": "buck",
+        "nickname": [
+            "buck"
+        ]
+    },
+    {
+        "name": "valkyrie",
+        "nickname": [
+            "valkyrie","女武神","黑眼"
+        ]
+    },
+    {
+        "name": "blackbeard",
+        "nickname": [
+            "blackbeard","bb","大胡子","枪盾"
+        ]
+    },
+    {
+        "name": "caveira",
+        "nickname": [
+            "caveira","女鬼"
+        ]
+    },
+    {
+        "name": "capitao",
+        "nickname": [
+            "capitao","巴西队长","烤肉队长"
+        ]
+    },
+    {
+        "name": "echo",
+        "nickname": [
+            "echo","肥宅"
+        ]
+    },
+    {
+        "name": "hibana",
+        "nickname": [
+            "hibana","火花"
+        ]
+    },
+    {
+        "name": "mira",
+        "nickname": [
+            "mira","黑镜"
+        ]
+    },
+    {
+        "name": "jackal",
+        "nickname": [
+            "jackal","脚气"
+        ]
+    },
+    {
+        "name": "lesion",
+        "nickname": [
+            "lesion","刘醒"
+        ]
+    },
+    {
+        "name": "ying",
+        "nickname": [
+            "ying","莹"
+        ]
+    },
+    {
+        "name": "ela",
+        "nickname": [
+            "ela"
+        ]
+    },
+    {
+        "name": "zofia",
+        "nickname": [
+            "zofia"
+        ]
+    },
+    {
+        "name": "vigil",
+        "nickname": [
+            "vigil","男鬼","白裤裆"
+        ]
+    },
+    {
+        "name": "dokkaebi",
+        "nickname": [
+            "dokkaebi","电话妹","美羊羊"
+        ]
+    },
+    {
+        "name": "lion",
+        "nickname": [
+            "lion","狮子"
+        ]
+    },
+    {
+        "name": "finka",
+        "nickname": [
+            "finka","激素"
+        ]
+    },
+    {
+        "name": "maestro",
+        "nickname": [
+            "maestro","邪眼"
+        ]
+    },
+    {
+        "name": "alibi",
+        "nickname": [
+            "alibi","棱镜"
+        ]
+    },
+    {
+        "name": "clash",
+        "nickname": [
+            "clash","电盾"
+        ]
+    },
+    {
+        "name": "maverick",
+        "nickname": [
+            "maverick","小马哥"
+        ]
+    },
+    {
+        "name": "kaid",
+        "nickname": [
+            "kaid","老头","电爪"
+        ]
+    },
+    {
+        "name": "nomad",
+        "nickname": [
+            "nomad","气震锤"
+        ]
+    },
+    {
+        "name": "mozzie",
+        "nickname": [
+            "mozzie","骇虫","矮子"
+        ]
+    },
+    {
+        "name": "gridlock",
+        "nickname": [
+            "gridlock"
+        ]
+    },
+    {
+        "name": "warden",
+        "nickname": [
+            "warden","沃登","西装哥","西装男"
+        ]
+    },
+    {
+        "name": "nokk",
+        "nickname": [
+            "nokk","水鬼"
+        ]
+    },
+    {
+        "name": "goyo",
+        "nickname": [
+            "goyo","火山盾"
+        ]
+    },
+    {
+        "name": "amaru",
+        "nickname": [
+            "amaru","小飞侠","cxk","蔡徐坤"
+        ]
+    },
+    {
+        "name": "wamai",
+        "nickname": [
+            "wamai","外卖"
+        ]
+    },
+    {
+        "name": "kali",
+        "nickname": [
+            "kali","大狙"
+        ]
+    },
+    {
+        "name": "oryx",
+        "nickname": [
+            "oryx","羚羊"
+        ]
+    },
+    {
+        "name": "iana",
+        "nickname": [
+            "iana","鸭娜"
+        ]
+    },
+    {
+        "name": "melusi",
+        "nickname": [
+            "melusi"
+        ]
+    },
+    {
+        "name": "ace",
+        "nickname": [
+            "ace"
+        ]
+    },
+    {
+        "name": "zero",
+        "nickname": [
+            "zero","鱼叔"
+        ]
+    }
+]

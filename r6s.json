@@ -1,0 +1,117 @@
+{
+    "username": "LxEgotist",
+    "platform": "pc",
+    "ubisoft_id": "9ebba57e-ffb0-442a-bc8b-6d78d68d45e9",
+    "uplay_id": "9ebba57e-ffb0-442a-bc8b-6d78d68d45e9",
+    "avatar_url_146": "https://ubisoft-avatars.akamaized.net/9ebba57e-ffb0-442a-bc8b-6d78d68d45e9/default_146_146.png",
+    "avatar_url_256": "https://ubisoft-avatars.akamaized.net/9ebba57e-ffb0-442a-bc8b-6d78d68d45e9/default_256_256.png",
+    "last_updated": "2020-11-11T09:35:28.000Z",
+    "aliases": [
+        {
+            "username": "LxEgotist",
+            "last_seen_at": "2019-08-09T01:25:04.000Z"
+        }
+    ],
+    "progression": {
+        "level": 157,
+        "lootbox_probability": 28.7,
+        "total_xp": 30120
+    },
+    "stats": {
+        "general": {
+            "assists": 2101,
+            "barricades_deployed": 803,
+            "blind_kills": 13,
+            "bullets_fired": 13835,
+            "bullets_hit": 60183,
+            "dbnos": 3339,
+            "deaths": 6473,
+            "distance_travelled": 1655160,
+            "draws": 0,
+            "gadgets_destroyed": 7599,
+            "games_played": 1961,
+            "headshots": 2535,
+            "kd": 1.1142,
+            "kills": 7212,
+            "losses": 830,
+            "melee_kills": 150,
+            "penetration_kills": 415,
+            "playtime": 1833681,
+            "rappel_breaches": 2,
+            "reinforcements_deployed": 4371,
+            "revives": 198,
+            "suicides": 21,
+            "wins": 1131,
+            "wl": 1.3627
+        },
+        "queue": {
+            "casual": {
+                "deaths": 5746,
+                "draws": 0,
+                "games_played": 1763,
+                "kd": 1.1201,
+                "kills": 6436,
+                "losses": 748,
+                "playtime": 1653293,
+                "wins": 1015,
+                "wl": 1.357
+            },
+            "ranked": {
+                "deaths": 90,
+                "draws": 0,
+                "games_played": 21,
+                "kd": 0.7889,
+                "kills": 71,
+                "losses": 10,
+                "playtime": 24605,
+                "wins": 11,
+                "wl": 1.1
+            },
+            "other": {
+                "deaths": 637,
+                "draws": 0,
+                "games_played": 177,
+                "kd": 1.1068,
+                "kills": 705,
+                "losses": 72,
+                "playtime": 155783,
+                "wins": 105,
+                "wl": 1.4583
+            }
+        },
+        "gamemode": {
+            "bomb": {
+                "best_score": 7267,
+                "games_played": 1502,
+                "losses": 611,
+                "playtime": 1449137,
+                "wins": 891,
+                "wl": 1.4583
+            },
+            "secure_area": {
+                "best_score": 4450,
+                "games_played": 331,
+                "kills_as_attacker_in_objective": 79,
+                "kills_as_defender_in_objective": 70,
+                "losses": 153,
+                "playtime": 294733,
+                "times_objective_secured": 41,
+                "wins": 178,
+                "wl": 1.1634
+            },
+            "hostage": {
+                "best_score": 4860,
+                "games_played": 71,
+                "losses": 38,
+                "playtime": 64656,
+                "extractions_denied": 11,
+                "wins": 33,
+                "wl": 0.8684
+            }
+        },
+        "timestamps": {
+            "created": "2020-11-11T02:44:10.000Z",
+            "last_updated": "2020-11-11T14:57:33.000Z"
+        }
+    }
+}
