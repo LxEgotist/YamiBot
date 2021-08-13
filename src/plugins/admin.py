@@ -3,7 +3,7 @@ from pathlib import Path
 from utils.utils_error import errorRepo
 from utils.utils_whiteList import whiteList
 from utils.utils_banList import banList
-from nonebot.plugin import on_command,on_request
+from nonebot.plugin import on_command,on_request,on_regex
 from nonebot.adapters.cqhttp import Bot, Event
 from nonebot.permission import SUPERUSER,GROUP_ADMIN,GROUP_OWNER
 master = ["838167348"]
@@ -142,6 +142,27 @@ async def _(bot: Bot, event: Event, state: dict) -> None:
 			json.dump(j,f)
 		await delWhiteList.finish(f'{mo}:{number}移出黑名单')
 		#await delWhiteList.finish(f'{mo}:{number}移出黑名单失败')
+
+
+banLists = on_regex(
+	r"/((b|B)an(l|L)ist|(b|B)lack(l|L)ist|(w|W)hite(l|L)ist)-help")
+@banLists.handle()  # type: ignore
+async def _(bot: Bot, event: Event, state: dict) -> None:
+	msg = "-==WhiteList==-\n"
+	msg += " - /whiteList-check [mo] [number]\n"
+	msg += " - /whiteList-set [mo] [number]\n"
+	msg += " - /whiteList-once [mo] [number]\n"
+	msg += " - /whiteList-del [mo] [number]"
+	await banLists.finish(msg)
+	msg = "-==BanList==-\n"
+	msg += " - /banList-check [mo] [number]\n"
+	msg += " - /banList-set [mo] [number]\n"
+	msg += " - /banList-del [mo] [number]"
+	await banLists.finish(msg)
+	msg = "  [mo] :	user/group\n"
+	msg += "  [number] :	user ID/group ID"
+	await banLists.finish(msg)
+
 
 morningSet = on_command("morning",permission=(SUPERUSER | GROUP_OWNER | GROUP_ADMIN))
 @morningSet.handle()
