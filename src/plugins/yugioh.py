@@ -35,7 +35,7 @@ async def _(bot: Bot, event: Event, state: dict) -> None:
                 url = f'https://www.ourocg.cn/search/{key}/'
 
                 await OCGSearch.finish(url)
-            elif msg[0] == "image":
+            elif mo == "image":
                 num = eval(key)
                 if isinstance(num, int):
                     url = f'https://storage.googleapis.com/ygoprodeck.com/pics/{key}.jpg'
@@ -45,6 +45,4 @@ async def _(bot: Bot, event: Event, state: dict) -> None:
                     await OCGSearch.finish('卡密都不知道查个锤子卡图')
             else:
                 await OCGSearch.finish('鬼知道出现了什么错误')
-
-
 
