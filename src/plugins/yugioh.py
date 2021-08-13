@@ -13,8 +13,7 @@ async def _(bot: Bot, event: Event, state: dict) -> None:
     group = str(event.group_id)
 
     if not banList(user, group):
-        msg = str(event.message).strip()
-
+        msg = str(event.message).strip().split(' ')
         if msg:
             pass
         else:
