@@ -38,7 +38,8 @@ async def _(bot: Bot, event: Event, state: dict) -> None:
                 num = eval(Key)
                 if isinstance(num, int):
                     url = f'https://storage.googleapis.com/ygoprodeck.com/pics/{Key}.jpg'
-                    await OCGSearch.finish(aio_download_pics(url))
+                    msg0=f'[CQ:image,file=file:///{await aio_download_pics(url)}]\n'
+                    await OCGSearch.finish(msg0)
                 else:
                     await OCGSearch.finish('你在输什么j8')
 
