@@ -1,6 +1,7 @@
 import json
 from nonebot import on_command
 from utils.utils_banList import banList
+from utils.utils_img import compress_image, aio_download_pics
 from nonebot.adapters.cqhttp import Bot, Event
 
 OCGSearch = on_command("ocg", priority=5)
@@ -37,7 +38,9 @@ async def _(bot: Bot, event: Event, state: dict) -> None:
                 num = eval(Key)
                 if isinstance(num, int):
                     url = f'https://storage.googleapis.com/ygoprodeck.com/pics/{Key}.jpg'
+                    await OCGSearch.finish(aio_download_pics(url))
                 else:
                     await OCGSearch.finish('你在输什么j8')
+
 
 
