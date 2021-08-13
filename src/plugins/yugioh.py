@@ -25,23 +25,26 @@ async def _(bot: Bot, event: Event, state: dict) -> None:
 
             await OCGSearch.finish(msg0)
 
-        if not (len(msg) == 2 and (msg[0] == "search" or msg[0] == "image")):
+
+        if len(msg) < 2:
             await OCGSearch.finish('你在输什么j8')
         else:
-            if msg[0] == "search":
-                key = msg[1]
+            mo=msg[0]
+            key=msg[1]
+            if mo == "search":
                 url = f'https://www.ourocg.cn/search/{key}/'
 
                 await OCGSearch.finish(url)
             elif msg[0] == "image":
-                Key = msg[1]
-                num = eval(Key)
+                num = eval(key)
                 if isinstance(num, int):
-                    url = f'https://storage.googleapis.com/ygoprodeck.com/pics/{Key}.jpg'
+                    url = f'https://storage.googleapis.com/ygoprodeck.com/pics/{key}.jpg'
                     msg0=f'[CQ:image,file=file:///{await aio_download_pics(url)}]\n'
                     await OCGSearch.finish(msg0)
                 else:
-                    await OCGSearch.finish('你在输什么j8')
+                    await OCGSearch.finish('卡密都不知道查个锤子卡图')
+            else:
+                await OCGSearch.finish('鬼知道出现了什么错误')
 
 
 
