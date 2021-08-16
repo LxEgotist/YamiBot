@@ -145,7 +145,7 @@ async def _(bot: Bot, event: Event, state: dict) -> None:
 
 
 banLists = on_regex(
-	r"/((b|B)an(l|L)ist|(b|B)lack(l|L)ist|(w|W)hite(l|L)ist)-help")
+	r"((b|B)an(l|L)ist|(b|B)lack(l|L)ist|(w|W)hite(l|L)ist)help")
 @banLists.handle()  # type: ignore
 async def _(bot: Bot, event: Event, state: dict) -> None:
 	msg = "-==WhiteList==-\n"
