@@ -9,14 +9,14 @@ import requests
 import re
 
 
-def getID(key: str) -> str :
-    if __name__ == '__main__' :
+def getID(key:str) -> str :
+    if __name__ == '__main__':
         key = parse.quote(key)
         target = f'https://ygocdb.com/?search={key}'
-        req = requests.get(url = target)
+        req = requests.get(url=target)
         html = req.text
         get = BeautifulSoup(html)
-        texts = get.find_all('div', class_ = 'col-md-6 col-xs-8 names')
+        texts = get.find_all('div', class_='col-md-6 col-xs-8 names')
         texts = texts[0].text.replace('\n', '')
         number = "".join(re.findall("\d+", texts))
     return number
@@ -32,10 +32,8 @@ async def _(bot: Bot, event: Event, state: dict) -> None :
 
     if not banList(user, group) :
         msg = str(event.message).strip().split(' ')
-        if msg :
+        if len(msg) == 1:
 
-            pass
-        else :
             msg0 = "-==Yu-Gi-Oh!==-\n"
             msg0 += "ocg:\n"
             msg0 += "搜索：- search [keyword]\n"
@@ -44,10 +42,7 @@ async def _(bot: Bot, event: Event, state: dict) -> None :
             msg0 += "查图：- image [card ID]/[keyword]"
 
             await OCGSearch.finish(msg0)
-        if len(msg) < 2 :
-
-            await OCGSearch.finish('你🐎查啥都不知道害搁这查呢')
-        else :
+        elif len(msg) == 2:
             mo = msg[0]
             key = msg[1]
             if mo == "search" :  # 搜索
@@ -89,6 +84,9 @@ async def _(bot: Bot, event: Event, state: dict) -> None :
                     url = f'https://ygocdb.com/card/{key}'
 
                     await OCGSearch.finish(url)
-    else :
+            else :
 
-        await OCGSearch.finish('你在输什么j8')
+                await OCGSearch.finish('你在输什么j8')
+        else:
+
+            await OCGSearch.finish('你在输什么j8')
