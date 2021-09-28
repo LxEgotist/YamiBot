@@ -15,7 +15,7 @@ def getID(key:str) -> str :
         target = f'https://ygocdb.com/?search={key}'
         req = requests.get(url=target)
         html = req.text
-        get = BeautifulSoup(html)
+        get = BeautifulSoup(html,'lxml')
         texts = get.find_all('div', class_='col-md-6 col-xs-8 names')
         texts = texts[0].text.replace('\n', '')
         number = "".join(re.findall("\d+", texts))
